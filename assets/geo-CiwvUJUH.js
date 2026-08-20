@@ -1,0 +1,2 @@
+function h(t,o){const n=Math.PI/180,a=t[0]*n,s=t[1]*n,r=o[0]*n,e=o[1]*n,c=Math.sin((r-a)/2)**2+Math.cos(a)*Math.cos(r)*Math.sin((e-s)/2)**2;return Math.round(2*6371*Math.asin(Math.sqrt(c))*100)/100}function i(t){return t<1?`${Math.round(t*100)*10} m`:`${t.toFixed(1).replace(".",",")} km`}function u(t){return`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${t.name_jp||t.name} ${t.coord[0]},${t.coord[1]}`)}`}export{i as d,h,u as m};
+//# sourceMappingURL=geo-CiwvUJUH.js.map

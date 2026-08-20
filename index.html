@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<!-- `viewport-fit=cover`: senza questo, env(safe-area-inset-*) vale 0 e la tab bar
+     in basso finisce sotto la barra home dell'iPhone. E' la riga che manca
+     nell'HTML attuale, ed e' il motivo per cui installata sembra sbagliata.
+     ⚠️ Nessun `user-scalable=no`: l'HTML vecchio blocca il pinch-zoom, cioe'
+     impedisce di ingrandire il nome di un ristorante da mostrare a un tassista. -->
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f8f9fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f0f1a" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Viaggi">
+<meta name="description" content="Il viaggio, offline, nel telefono.">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icon-180.png">
+<title>Viaggi</title>
+<!-- Lo scheletro sta QUI, non in React: e' l'unica cosa visibile fra il tap
+     sull'icona e il primo render, e la differenza fra un'app e un documento e'
+     tutta in quel mezzo secondo. Nessun bianco, nessun salto. -->
+<style>
+  html,body{margin:0;background:#f8f9fb;color:#1a1a2e;
+    font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif}
+  @media(prefers-color-scheme:dark){html,body{background:#0f0f1a;color:#eaeaf0}}
+  #boot{position:fixed;inset:0;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;gap:14px;font-size:13px;opacity:.55}
+  #boot i{width:26px;height:26px;border:2.5px solid currentColor;border-top-color:transparent;
+    border-radius:50%;animation:s .8s linear infinite;display:block}
+  @keyframes s{to{transform:rotate(360deg)}}
+</style>
+  <script type="module" crossorigin src="./assets/index-Cgxj-88t.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BSrTJImh.css">
+</head>
+<body>
+<div id="root"></div>
+<div id="boot"><i></i><span>Apro il viaggio…</span></div>
+</body>
+</html>
