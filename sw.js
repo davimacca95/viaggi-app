@@ -22,32 +22,34 @@
 // Sostituiti a build time. Se restano così, il build non è stato completato.
 const PRECACHE = [
   "./index.html",
-  "./assets/EventRow-DOSymQN-.js",
-  "./assets/Giorno-C8hgewB5.js",
-  "./assets/Info-YIvSgUA0.js",
-  "./assets/Luogo-BoAJyFeJ.js",
+  "./assets/EventRow-B1H6HJ_c.js",
+  "./assets/Giorno-B41Dm1D9.js",
+  "./assets/Info-CYNvzSNx.js",
+  "./assets/Luogo-Bjf5Yl-m.js",
   "./assets/Mappa-9UNWPgFo.css",
-  "./assets/Mappa-CekeK5J7.js",
-  "./assets/Obiettivi-CynWx_-z.js",
-  "./assets/Oggi-C2VXe28u.js",
-  "./assets/TopBar-CTqLWu5x.js",
-  "./assets/Viaggio-C7_P4XUd.js",
+  "./assets/Mappa-a7QOGNuC.js",
+  "./assets/Obiettivi-Cn-hakRn.js",
+  "./assets/Oggi-C3mQ7qa2.js",
+  "./assets/TopBar-DSXpdyH4.js",
+  "./assets/Viaggio-DVf7Erli.js",
   "./assets/geo-CiwvUJUH.js",
-  "./assets/index-BSrTJImh.css",
-  "./assets/index-Cgxj-88t.js",
+  "./assets/index-BNpAoIoE.css",
+  "./assets/index-BuPrrXst.js",
   "./assets/maplibre-gl-worker-BDpjEBlB.js",
-  "./assets/open-hM-7Yy4T.js",
+  "./assets/open-tSUERPFi.js",
   "./assets/style-D0IkgN-N.js",
-  "./assets/time-BLeU0I2C.js",
-  "./assets/tripday-B1qPwJy-.js",
-  "./assets/useNow-BsDm7tSf.js",
+  "./assets/time-6lcbt65I.js",
+  "./assets/tripday-CHS9-fXN.js",
+  "./assets/useNow-i9SU4H0x.js",
+  "./data/rail-seoul.geojson",
+  "./data/rail-tokyo.geojson",
   "./data/trip-giappone-2026.json",
   "./icon-180.png",
   "./icon-192.png",
   "./icon-512.png",
   "./manifest.webmanifest"
 ]
-const VERSION = "a1c24a12a402"
+const VERSION = "dfdaba183b91"
 
 const CACHE = 'viaggi-' + VERSION
 const SHELL = './index.html'

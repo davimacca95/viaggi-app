@@ -1,0 +1,2 @@
+import{g as t,j as a}from"./index-BuPrrXst.js";function o({title:r,sub:s,back:e}){const n=t();return a.jsxs("header",{className:"topbar",children:[e&&a.jsx("button",{className:"topbar-back",onClick:()=>n(-1),"aria-label":"Indietro",children:"‹"}),a.jsxs("div",{className:"topbar-t",children:[a.jsx("h1",{children:r}),s&&a.jsx("span",{children:s})]})]})}export{o as T};
+//# sourceMappingURL=TopBar-DSXpdyH4.js.map
