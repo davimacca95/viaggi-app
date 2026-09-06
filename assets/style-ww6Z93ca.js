@@ -1,0 +1,2 @@
+const s="https://tiles.openfreemap.org",o={light:`${s}/styles/liberty`,dark:`${s}/styles/dark`},a=["Noto Sans Bold"],n=["Noto Sans Italic"];function r(t){return t?o.dark:o.light}function e({dark:t}){return{version:8,sources:{},glyphs:`${s}/fonts/{fontstack}/{range}.pbf`,layers:[{id:"background",type:"background",paint:{"background-color":t?"#12151a":"#f2efe9"}}]}}export{a as P,n as Q,s as T,e as f,r as s};
+//# sourceMappingURL=style-ww6Z93ca.js.map
