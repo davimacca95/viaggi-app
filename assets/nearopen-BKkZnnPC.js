@@ -1,0 +1,2 @@
+import{p as d,h as k}from"./geo-DgzmPMGc.js";const c={open:0,unknown:1,closed:2};function h(r,s,u,p,o={}){const f=o.limit??5,m=o.chiusi??"fuori",t=[];for(const i of s){if(o.tieni&&!o.tieni(i))continue;const n=d(i,u,p);n.state==="closed"&&m==="fuori"||t.push({p:i,km:k(r,i.coord),open:n})}return t.sort((i,n)=>{const e=c[i.open.state]-c[n.open.state];return e!==0?e:i.km!==n.km?i.km-n.km:i.p.id<n.p.id?-1:i.p.id>n.p.id?1:0}),t.slice(0,f)}export{h as v};
+//# sourceMappingURL=nearopen-BKkZnnPC.js.map
