@@ -22,29 +22,29 @@
 // Sostituiti a build time. Se restano così, il build non è stato completato.
 const PRECACHE = [
   "./index.html",
-  "./assets/EventRow-BB0uDVFH.js",
-  "./assets/Giorno-DSayG0gB.js",
-  "./assets/Gita-DqPj0tbA.js",
-  "./assets/Gite-CSyf1NO5.js",
-  "./assets/Luogo-CNl8AHBg.js",
-  "./assets/Mappa-3WuHhNYV.js",
+  "./assets/EventRow-B24RhuzG.js",
+  "./assets/Giorno-ajuJIC4m.js",
+  "./assets/Gita-Q8iVuAXS.js",
+  "./assets/Gite-DofCUMVo.js",
+  "./assets/Luogo-CicX604e.js",
   "./assets/Mappa-9UNWPgFo.css",
-  "./assets/Menu-ocqldtov.js",
-  "./assets/MenuSezione-Bz90xxeF.js",
-  "./assets/Obiettivi-WKZx8Ogd.js",
-  "./assets/Segno-CkqkqivH.js",
-  "./assets/TopBar-D86M-8OA.js",
-  "./assets/Viaggio-CL4XZia2.js",
-  "./assets/geo-DIymZ46Z.js",
+  "./assets/Mappa-D_D3r-6c.js",
+  "./assets/Menu-BSOVfpYH.js",
+  "./assets/MenuSezione-DB6Ls1C4.js",
+  "./assets/Obiettivi-DX_5dPFq.js",
+  "./assets/Segno-CdYnmy6u.js",
+  "./assets/TopBar-Bkpr-SYb.js",
+  "./assets/Viaggio-CnbWvUrh.js",
+  "./assets/geo-bYZrI_Nk.js",
   "./assets/glyphs-Be_4LByj.js",
-  "./assets/gps-COXzNwdb.js",
-  "./assets/index-BJseCLLV.js",
+  "./assets/gps-8Vm0ve7E.js",
+  "./assets/index-BD2xczKS.js",
   "./assets/index-CLZ2pw0M.css",
   "./assets/maplibre-gl-worker-BDpjEBlB.js",
-  "./assets/nearopen-CjbsRjK2.js",
+  "./assets/nearopen-CDbUhAf6.js",
   "./assets/rail-iuoFzVZ_.js",
   "./assets/style-CcGpYC3U.js",
-  "./assets/time-BPqgdQq-.js",
+  "./assets/time-CNH3ZoHG.js",
   "./data/quartieri-tokyo.geojson",
   "./data/rail-seoul.geojson",
   "./data/rail-tokyo.geojson",
@@ -54,7 +54,7 @@ const PRECACHE = [
   "./icon-512.png",
   "./manifest.webmanifest"
 ]
-const VERSION = "972d1a52cf32"
+const VERSION = "92cfe1a0646b"
 
 const CACHE = 'viaggi-' + VERSION
 const SHELL = './index.html'
