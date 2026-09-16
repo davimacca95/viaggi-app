@@ -57,7 +57,7 @@ const PRECACHE = [
   "./icon-512.png",
   "./manifest.webmanifest"
 ]
-const VERSION = "513ad50733c8"
+const VERSION = "30988da00151"
 
 const CACHE = 'viaggi-' + VERSION
 const SHELL = './index.html'
