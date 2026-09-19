@@ -1,2 +1,0 @@
-import{h as d}from"./geo-CiwvUJUH.js";import{p as k}from"./open-C7-tmNpo.js";const r={open:0,unknown:1,closed:2};function a(c,s,p,u,o={}){const f=o.limit??5,m=o.chiusi??"fuori",t=[];for(const i of s){if(o.tieni&&!o.tieni(i))continue;const n=k(i,p,u);n.state==="closed"&&m==="fuori"||t.push({p:i,km:d(c,i.coord),open:n})}return t.sort((i,n)=>{const e=r[i.open.state]-r[n.open.state];return e!==0?e:i.km!==n.km?i.km-n.km:i.p.id<n.p.id?-1:i.p.id>n.p.id?1:0}),t.slice(0,f)}export{a as v};
-//# sourceMappingURL=nearopen-CHaJmM8y.js.map
