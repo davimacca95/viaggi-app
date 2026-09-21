@@ -1,2 +1,0 @@
-import{j as o}from"./index-D2L1rZdg.js";function s({fatto:e}){return o.jsxs("svg",{className:"ob-segno",viewBox:"0 0 24 24",width:"22",height:"22","aria-hidden":"true",children:[o.jsx("circle",{cx:"12",cy:"12",r:"10.2",fill:"none",stroke:"currentColor",strokeWidth:"1.7"}),e&&o.jsx("path",{className:"ob-baffo",d:"M7.4 12.4l3.1 3.1 6.1-6.6",fill:"none",stroke:"currentColor",strokeWidth:"2.2",strokeLinecap:"round",strokeLinejoin:"round"})]})}export{s as S};
-//# sourceMappingURL=Segno-B6thBbj6.js.map
